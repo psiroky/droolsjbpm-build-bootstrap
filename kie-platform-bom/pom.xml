@@ -428,26 +428,6 @@
         <version>${version.org.eclipse.jdt.core.compiler}</version>
       </dependency>
 
-      <!-- Dependency of maven 3.2.2  -->
-      <dependency>
-        <groupId>org.eclipse.sisu</groupId>
-        <artifactId>org.eclipse.sisu.plexus</artifactId>
-        <version>${version.org.eclipse.sisu}</version>
-      </dependency>
-
-      <!-- Dependency of maven 3.2.2  -->
-      <dependency>
-        <groupId>org.eclipse.sisu</groupId>
-        <artifactId>org.eclipse.sisu.inject</artifactId>
-        <version>${version.org.eclipse.sisu}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-
       <dependency>
         <groupId>org.owasp.encoder</groupId>
         <artifactId>encoder</artifactId>
@@ -635,26 +615,6 @@
         <version>${version.org.springframework.osgi}</version>
       </dependency>
 
-      <dependency>
-        <groupId>org.codehaus.plexus</groupId>
-        <artifactId>plexus-utils</artifactId>
-        <version>${version.org.codehaus.plexus}</version>
-      </dependency>
-
-      <!-- Dependency of maven 3.2.2  -->
-      <dependency>
-        <groupId>org.codehaus.plexus</groupId>
-        <artifactId>plexus-classworlds</artifactId>
-        <version>${version.org.codehaus.plexus.plexus-classworlds}</version>
-      </dependency>
-
-      <!-- Dependency of maven 3.2.2  -->
-      <dependency>
-        <groupId>org.codehaus.plexus</groupId>
-        <artifactId>plexus-interpolation</artifactId>
-        <version>${version.org.codehaus.plexus.plexus-interpolation}</version>
-      </dependency>
-
       <!-- jboss as and arquillian deps (JBPM-4403) -->
       <dependency>
         <groupId>org.jboss.as</groupId>
@@ -672,40 +632,6 @@
         <artifactId>jboss-as-naming</artifactId>
         <version>${version.org.jboss.as}</version>
         <scope>test</scope>
-      </dependency>
-
-      <!-- Dependency of maven 3.2.2  -->
-      <dependency>
-        <groupId>org.sonatype.plexus</groupId>
-        <artifactId>plexus-cipher</artifactId>
-        <version>${version.org.sonatype.plexus.plexus-cipher}</version>
-      </dependency>
-
-      <!-- Dependency of maven 3.2.2  -->
-      <dependency>
-        <groupId>org.sonatype.plexus</groupId>
-        <artifactId>plexus-sec-dispatcher</artifactId>
-        <version>${version.org.sonatype.plexus.plexus-sec-dispatcher}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.codehaus.plexus</groupId>
-            <artifactId>plexus-container-default</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-
-      <!-- Dependency of maven 3.2.2  -->
-      <dependency>
-        <groupId>org.sonatype.sisu</groupId>
-        <artifactId>sisu-guice</artifactId>
-        <version>${version.org.sonatype.sisu.sisu-guice}</version>
-        <classifier>no_aop</classifier>
-        <exclusions>
-          <exclusion>
-            <groupId>org.sonatype.sisu</groupId>
-            <artifactId>sisu-guava</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
 
       <dependency>
